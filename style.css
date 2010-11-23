@@ -1,0 +1,234 @@
+/* Base styles */
+
+html, body, div, span,
+h1, h2, h3, h4, p, blockquote,
+a, em, img, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+  background: #fff;
+  color: #444;
+  font: 18px/18px "Vollkorn", Georgia, serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote {
+  font-size: 13px;
+  line-height: 18px;
+  quotes: none;
+  font-style: italic;
+}
+
+#quote-credit {
+  color: #888;
+  font: 12px "Gill Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  display: block;
+  font-style: normal;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+  line-height: normal;
+}
+
+a {
+  color: #dc281e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.sec {
+  color: #888;
+}
+
+.important {
+  background: #fce8e9;
+  padding: 10px;
+}
+
+/* Header */
+
+#header {
+  background: #222;
+  padding: 10px;
+  overflow: hidden;
+}
+
+h1 a {
+  color: #fff;
+  font-size: 24px;
+  overflow: hidden;
+  margin: 0;
+  float: left;
+  line-height: 24px;
+  background: #dc281e;
+  padding: 10px;
+}
+
+h1 a:hover {
+  text-decoration: none;
+}
+
+#nav {
+  list-style: none;
+  font: 14px "Gill Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  float: left;
+  line-height: 44px;
+  margin: 0 0 0 180px;
+  
+}
+
+#nav li {
+  margin: 0 0 0 30px;
+  float: left;
+}
+
+#nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main site content */
+
+#content {
+  padding: 40px 10px 10px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #222;
+  font-size: 54px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #888;
+  letter-spacing: 2px;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#intro {
+  font-size: 20px;
+  line-height: 32px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+#photo {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.item {
+  font-size: 14px;
+  overflow: hidden;
+}
+
+#work .item {
+  margin-bottom: 40px;
+}
+
+#coursework .item {
+  margin-bottom: 20px;
+}
+
+#work .description {
+  width: 180px;
+  float: left;
+}
+
+#coursework .description {
+  width: 620px;
+  float: left;
+}
+
+.assignments {
+  width: 260px;
+  float: left;
+  margin-left: 20px;
+}
+
+ul {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.item img {
+  float: left;
+  margin-left: 20px;
+}
+
+#primary, #secondary {
+  float: left;
+}
+
+#primary {
+  width: 600px;
+}
+
+#secondary {
+  width: 200px;
+  margin-left: 100px;
+}
+
+ul.bullets {
+  list-style: circle;
+}
+
+ul.bullets li {
+  margin-left: 20px;
+}
+
+ul.spaced li {
+  margin-bottom: 10px;
+}
+
+.section-header {
+  overflow: hidden;
+}
+
+.section-header h2 {
+  float: left;
+}
+
+.links {
+  float: left;
+  margin: 30px 0 0 40px;
+}
+
+.links li {
+  float: left;
+  margin-right: 20px;
+}
