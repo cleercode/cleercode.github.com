@@ -12,6 +12,10 @@ a, em, img, ul, li {
   background: transparent;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   line-height: 1;
   background: #fff;
@@ -24,13 +28,14 @@ ol, ul {
 }
 
 blockquote {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 18px;
   quotes: none;
   font-style: italic;
 }
 
 #quote-credit {
+  margin-top: 6px;
   color: #888;
   font: 12px "Gill Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
