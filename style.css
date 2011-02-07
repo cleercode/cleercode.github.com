@@ -177,6 +177,16 @@ h4 {
   border-width: 2px 0;
   font-size: 24px;
   margin-top: 60px;
+  overflow: hidden;
   padding: 10px 0;
   text-align: center;
+}
+
+#footer p {
+  display: inline;
+}
+
+#footer a#back_to_top {
+  border: none;
+  float: right;
 }
