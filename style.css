@@ -19,7 +19,7 @@ html {
 
 body {
   color: #444;
-  font: 16px/1.5 Cambria, Georgia, "Palatino Linotype", Palatino, "URW Palladio L", serif;
+  font: 16px/1.5 Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif; 
   margin: 0 auto;
   padding: 30px 0;
   width: 900px;
@@ -31,7 +31,6 @@ ol, ul {
 
 h1, h2, h3, h4 {
   font-weight: normal;
-  line-height: normal;
 }
 
 a {
@@ -50,6 +49,8 @@ a:hover {
 }
 
 #header #intro {
+  line-height: 30px;
+  margin-bottom: 20px;
   overflow: hidden;
 }
 
@@ -57,14 +58,13 @@ a:hover {
   color: #dc281e;
   float: left;
   font-family: Lato, "Gill Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
-  line-height: 1.1;
-  margin-bottom: 20px;
   width: 300px;
 }
 
 #header h1 #name {
   font-size: 72px;
-  font-weight: 900;
+  font-weight: 700;
+  line-height: 60px;
   text-transform: lowercase;
 }
 
@@ -78,8 +78,6 @@ a:hover {
 #header h2 {
   float: right;
   font-size: 18px;
-  line-height: 24px;
-  margin-top: 15px;
   width: 500px;
 }
 
@@ -87,7 +85,6 @@ a:hover {
   border-color: #d7d4a6;
   border-style: solid;
   border-width: 2px 0;
-  margin-top: 10px;
   overflow: hidden;
   padding: 10px 0;
   text-align: center;
