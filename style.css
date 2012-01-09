@@ -78,7 +78,8 @@ a:hover {
 #header h2 {
   float: right;
   font-size: 18px;
-  width: 500px;
+  padding: 0 25px;
+  width: 548px;
 }
 
 #header ul#links {
