@@ -167,6 +167,12 @@ h4 {
   width: 600px;
 }
 
+.item .presentation {
+  float: left;
+  margin-bottom: -7px;
+  width: 600px;
+}
+
 /* Footer */
 
 #footer {
