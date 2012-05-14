@@ -34,7 +34,7 @@ h1, h2, h3, h4 {
 }
 
 a {
-  color: #dc281e;
+  color: #e13103;
   text-decoration: none;
 }
 
@@ -55,7 +55,7 @@ a:hover {
 }
 
 #header h1 {
-  color: #dc281e;
+  color: #e13103;
   float: left;
   font-family: Lato, "Gill Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
   width: 300px;
