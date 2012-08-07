@@ -433,6 +433,7 @@ header #logo #tagline {
   -moz-transition: background 0.2s ease-out;
   -o-transition: background 0.2s ease-out;
   background: #aaa;
+  border: none;
   border-radius: 5px;
   color: #fff;
   display: inline-block;
