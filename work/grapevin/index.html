@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8"> 
     <meta content="Interaction designer" name="description">
-    <title>Chris Lee | The Gospel</title>
+    <title>Chris Lee | Grapevin</title>
     <link href="http://fonts.googleapis.com/css?family=Lato:regular,bold|Roboto:regular,bold" rel="stylesheet" type="text/css" />
-    <link href="../style.css" rel="stylesheet" type="text/css" />
+    <link href="/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
@@ -22,37 +22,30 @@
     <div id="content">
       <div id="detail">
         <div class="heading">
-          <h1>The Gospel</h1>
-          <p class="type">Website</p>
+          <h1>Grapevin</h1>
+          <p class="type">Web App</p>
         </div>
         <div id="description">
-          <a href="http://chrsl.net/gospel/" title="The Gospel">
-            <img src="0.png" class="bleed window" style="margin-right: -360px" alt="The Gospel">
-          </a>
-          <p>The <strong>gospel</strong>, or &ldquo;good news&rdquo;, is the message of God through Jesus Christ that makes up the Christian faith.</p>
-          <p>As a Christian, I see this message as of utmost importance. My hope with my attempt here was to use my techical knowledge and design intuition to produce something that clearly, briefly, and beautifully communicates the good news.</p>
+          <img src="0.png" alt="Grapevin" class="bleed window" style="margin-right: -200px">
+          <p>Music tells a lot about a person.</p>
+          <p>That's my hypothesis: if a person's top ten current favorite songs probably tells a lot about their personality and their mood at that particular time.</p>
+          <p><strong>Grapevin</strong> was a project to allow people to express themselves through the music they enjoy. It allowed users to easily create an interactive playlist of their favorite songs to share with their friends. Grapevin was my first project of this scale; about a hundred people decided to check it out and created a playlist.</p>
+          <p>Unfortunately, although I had plenty of ideas on how to improve the application, I couldn't maintain it. After the rise of other social music services like Spotify and Rdio, I decided to cease development of Grapevin. Since then, I've been happy to see a services like <a href="http://www.thisismyjam.com/" target="_blank">This Is My Jam</a> and <a href="http://designers.mx/" target="_blank">Designers.MX</a> spring up that encapsulate lots of what I dreamt Grapevin might become.</p>
           <h2>Technology</h2>
-          <p>The site, designed to use a single page, makes use of some interesting design techniques:</p>
-          <ul>
-            <li>The <a href="http://en.wikipedia.org/wiki/Parallax_scrolling" target="_blank">parallax scrolling</a> technique moves the background images at a different speed than the rest of the site's content while scrolling to simulate 3D</li>
-            <li>CSS3's <code>background-size</code> property allows backgrounds images to intelligently resize to cover entire sections. This looks nice with background images based on classic biblical woodcut illustrations.</li>
-            <li>The <a href="http://www.zachleat.com/web/bigtext-makes-text-big/" target="_blank">BigText</a> jQuery plugin makes section headers sized to take up the whole width, a technique common in print design but rarely used in web design</li>
-            <li>CSS3 animation is used to fade an indicator in when hovering over Bible passages.</li>
-            <li>Relevant songs are inserted into each section, powered by <a href="http://www.spotify.com/" target="_blank">Spotify</a>.</li>
-          </ul>
+          <p>Grapevin was built on Ruby on Rails. In fact, I learned Rails as I was working on the application and developing it served as a much superior method of learning the framework than any tutorial I could find. It also served as an two-way encouragement: sometimes I would be learning Rails to develop Grapevin and at other times I'd be developing Grapevin to learn Rails.</p>
+          <p>When a user searched for a song to add, Grapevin used the <a href="http://www.last.fm/" target="_blank">Last.fm</a> API to grab matching songs and delivered results to the user. When the user picked one, the app then used <a href="http://grooveshark.com/" style="_blank">Grooveshark</a> API to find a related recording to embed on the user's profile page. This was one of the trickiest parts of the app: matching song data to the user's query and music then to that song data.</p>
           <h2>Design</h2>
-          <p>I toyed with the idea of creating a traditional, multi-page website, but decided to consolidate the site into a single, scrollable page. This design encourages the reader to view the content in order, telling the story.</p>
-          <p>Although the content was certainly the focus of the page, I wanted it to be visually attractive. I also wanted to clearly distinguish between the main sections of the page, which represent large, distinct periods of time in history. I took the idea of using different colors for the background from the <a href="http://en.wikipedia.org/wiki/Wordless_Book" target="_blank">Wordless Book</a>, a Christian evangelistic tool, and modified the color scheme to look more aesthetically pleasing and convey more meaning.</p>
-          <p>I wasn't satisfied with solid colors for the background, though, so I attempted to look for some classical Bible art (something I'm rather fond of) to blend into them. I stumbled upon a wonderful, public domain gallery of art Bible illustrations by <a href="http://catholic-resources.org/Art/Dore.htm">Gustave Dor&eacute;</a> and fell in love with it.</p>
+          <p>One of my other philosophies about music is that album art is beautiful and a great complement to an auditory experience. So, I placed a great emphasis on album art in Grapevin, using them as a visual tiles representing music.</p>
+          <p>As a social application that began with no on-site community, Grapevin's key value was providing clean, interactive profile pages that could be shared elsewhere. I tried to make this easy, using Facebook and Twitter for login and placing one-click sharing buttons for these services inside the app. Every user was allowed to pick a custom username that would be used for a <code>http://grapev.in/username</code> URL.</p>
+          <p>Ultimately, I think Grapevin failed because it failed to provide an engaging on-site community where users could interact with one another. Given that it was my first large-scale web application and a solo project, though, I think it worked out well and I learned quite a bit from it.</p>
           <h2>Roles</h2>
           <div id="roles">
             <div class="role design">Ideation &amp; vision</div>
             <div class="role design">Visual design</div>
             <div class="role design">Interaction design</div>
-            <div class="role writing">Content</div>
             <div class="role programming">Front-end development</div>
+            <div class="role programming">Back-end development</div>
           </div>
-          <a href="http://chrsl.net/gospel/" class="deliverable" target="_blank">Visit the site</a>
         </div>
       </div>
     </div>
@@ -63,7 +56,7 @@
         <h1>About Me</h1>
       </div>
       <div id="info">
-        <img src="../photo.jpg" alt="Chris Lee">
+        <img src="/photo.jpg" alt="Chris Lee">
         <div id="description">
           <p>I'm an interaction designer with a technical background: one of those <a href="http://www.inc.com/garry-tan/the-great-value-of-the-designer-who-codes.html" target="_blank">&ldquo;designers who code.&rdquo;</a> I like to make things (mainly software things), and I aspire to make things that solve real societal problems. I'm also finishing up studying human-computer interaction, computer science, and communication design at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>.</p>
           <p>I'm currently a interning with the <a href="http://www.mozilla.org/" target="_blank">Mozilla Firefox</a> <a href="http://blog.mozilla.org/ux/" target="_blank">UX Design</a> team. Previously, I worked at <a href="http://www.stik.com/" target="_blank">Stik</a> as a front-end developer/designer and <a href="http://www.learnboost.com/" target="_blank">LearnBoost</a> as a generalist developer.</p>

@@ -13,7 +13,7 @@ a, em, img, ul, li {
 }
 
 html {
-  background: #ffc24b url(bg.png);
+  background: #ffc24b url(/bg.png);
   overflow-y: scroll;
 }
 
@@ -307,7 +307,7 @@ header #logo #tagline {
 }
 
 .item .cover .buttons a .icon {
-  background: url(buttons.png);
+  background: url(/buttons.png);
   background-repeat: no-repeat;
   border-radius: 40px;
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
