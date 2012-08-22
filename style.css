@@ -21,6 +21,7 @@ body {
   color: #444;
   font: 14px/1.5 Lato, Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   margin: 0 auto;
+  min-width: 430px;
 }
 
 p {
