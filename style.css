@@ -8,6 +8,7 @@ html, body, div, h1, a, p {
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
   background: #eee;
   color: #444;
   font: 20px/1 Karla, 'Helvetica Neue', Helvetica, Arial, sans-serif;
