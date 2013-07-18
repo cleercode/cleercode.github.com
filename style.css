@@ -54,25 +54,25 @@ h1 {
   transition: all 0.5 ease-in-out;
 }
 
-.cmu {
+.google {
   -webkit-animation: left 1s;
   -moz-animation: left 1s;
   animation: left 1s;
-  background: #c4122f;
-}
-
-.google {
-  -webkit-animation: right 1.15s;
-  -moz-animation: right 1.15s;
-  animation: right 1.15s;
   background: #3c80f6;
 }
 
 .plusbible {
+  -webkit-animation: right 1.15s;
+  -moz-animation: right 1.15s;
+  animation: right 1.15s;
+  background: #e4b414;
+}
+
+.cmu {
   -webkit-animation: left 1.25s;
   -moz-animation: left 1.25s;
   animation: left 1.25s;
-  background: #e4b414;
+  background: #c4122f;
 }
 
 .contact {
