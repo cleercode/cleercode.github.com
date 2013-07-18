@@ -40,25 +40,37 @@ h1 {
   position: relative;
   max-width: 400px;
   -webkit-transition: all 0.5 ease-in-out;
+  -moz-transition: all 0.5 ease-in-out;
+  transition: all 0.5 ease-in-out;
 }
 
 .main a:hover {
   -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
   -webkit-transition: all 0.5 ease-in-out;
+  -moz-transition: all 0.5 ease-in-out;
+  transition: all 0.5 ease-in-out;
 }
 
 .cmu {
   -webkit-animation: left 1s;
+  -moz-animation: left 1s;
+  animation: left 1s;
   background: #c4122f;
 }
 
 .google {
   -webkit-animation: right 1.15s;
+  -moz-animation: right 1.15s;
+  animation: right 1.15s;
   background: #3c80f6;
 }
 
 .plusbible {
   -webkit-animation: left 1.25s;
+  -moz-animation: left 1.25s;
+  animation: left 1.25s;
   background: #e4b414;
 }
 
@@ -95,6 +107,78 @@ h1 {
 }
 
 @-webkit-keyframes left {
+  0% {
+    left: -75%;
+    opacity: 0;
+  }
+  50% {
+    left: -20%;
+    opacity: 0;
+  }
+  85% {
+    left: 20px;
+    opacity: 1;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@-moz-keyframes right {
+  0% {
+    right: -75%;
+    opacity: 0;
+  }
+  50% {
+    right: -20%;
+    opacity: 0;
+  }
+  85% {
+    right: 20px;
+    opacity: 1;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@-moz-keyframes left {
+  0% {
+    left: -75%;
+    opacity: 0;
+  }
+  50% {
+    left: -20%;
+    opacity: 0;
+  }
+  85% {
+    left: 20px;
+    opacity: 1;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes right {
+  0% {
+    right: -75%;
+    opacity: 0;
+  }
+  50% {
+    right: -20%;
+    opacity: 0;
+  }
+  85% {
+    right: 20px;
+    opacity: 1;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes left {
   0% {
     left: -75%;
     opacity: 0;
