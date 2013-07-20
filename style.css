@@ -40,18 +40,12 @@ h1 {
   padding: 20px;
   position: relative;
   max-width: 400px;
-  -webkit-transition: all 0.5 ease-in-out;
-  -moz-transition: all 0.5 ease-in-out;
-  transition: all 0.5 ease-in-out;
 }
 
 .main a:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   transform: scale(1.1);
-  -webkit-transition: all 0.5 ease-in-out;
-  -moz-transition: all 0.5 ease-in-out;
-  transition: all 0.5 ease-in-out;
 }
 
 .google {
