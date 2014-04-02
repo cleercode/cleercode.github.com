@@ -28,8 +28,8 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #222 url(bg.png);
   background-attachment: fixed;
-  -webkit-animation: animatedBackground 25s linear infinite;
-  -moz-animation: animatedBackground 25s linear infinite;
+  -webkit-animation: animatedBackground 45s linear infinite;
+  -moz-animation: animatedBackground 45s linear infinite;
   color: #fff;
   font: 16px/1.5 Baskerville, Palatino, serif;
   text-align: center;
