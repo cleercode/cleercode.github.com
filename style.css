@@ -18,13 +18,10 @@ ul {
 blockquote{
   quotes: none;
 }
+
 blockquote:before, blockquote:after {
   content: '';
   content: none;
-}
-
-html, body {
-  height: 100%;
 }
 
 body {
@@ -51,6 +48,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid #fff;
 }
 
 header {
@@ -81,8 +82,11 @@ section {
   font-size: 12px;
   display: inline-block;
   margin: 10px;
-  letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+.links .spaced {
+  letter-spacing: 5px;
 }
 
 .quotes {
