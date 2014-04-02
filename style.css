@@ -1,4 +1,4 @@
-html, body, div, h1, a, p, dl, dd {
+html, body, div, h1, p, blockquote, a, cite, img, ul, li, footer, header, section {
   margin: 0;
   padding: 0;
   border: 0;
@@ -7,54 +7,137 @@ html, body, div, h1, a, p, dl, dd {
   vertical-align: baseline;
 }
 
-@media only screen and (min-width: 881px) {
-  html {
-    background: url(bg.jpg);
-    background-size: cover;
-  }
+footer, header, section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote{
+  quotes: none;
+}
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
-  background: #eee;
-  color: #999;
-  font: 14px/1.5 Cousine, Menlo, Monaco, monospaced;
-  max-width: 800px;
-  padding: 40px;
+  background: #222 url(bg.png);
+  background-attachment: fixed;
+  -webkit-animation: animatedBackground 25s linear infinite;
+  -moz-animation: animatedBackground 25s linear infinite;
+  color: #fff;
+  font: 16px/1.5 Baskerville, Palatino, serif;
+  text-align: center;
+}
+
+@-webkit-keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 0 -798px; }
+}
+
+@-moz-keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 0 -798px; }
 }
 
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 1px;
 }
 
-a:hover {
-  border-color: #aaa;
-  color: #777;
+header {
+  color: #fff;
+  padding: 40px;
 }
 
 h1 {
-  color: #6da0f8;
-  font-family: Abel;
-  font-size: 4em;
-  font-weight: bold;
-  letter-spacing: 5px;
-  line-height: 1.2;
-  margin-bottom: 5px;
+  font-size: 24px;
+  letter-spacing: 8px;
   text-transform: uppercase;
 }
 
-p {
-  margin-bottom: 1em;
+section {
+  padding: 150px 0;
 }
 
-.contact {
+.triangle {
+  margin-bottom: 40px;
+}
+
+.self p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.links li {
+  font-size: 12px;
+  display: inline-block;
+  margin: 10px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.quotes {
+  background: url(violin.png) center no-repeat;
+  background-size: 400px;
+  line-height: 2;
+  overflow: hidden;
+  width: 100%;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: normal;
+  letter-spacing: 10px;
+  margin-top: 40px;
+  opacity: 0.5;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+}
+
+.half {
+  display: inline-block;
+  padding: 40px;
+  vertical-align: top;
+}
+
+.one blockquote {
+  float: right;
+}
+
+.two blockquote {
+  float: left;
+}
+
+blockquote {
+  width: 400px;
+}
+
+cite {
+  display: block;
   margin-top: 2em;
 }
 
-.dark {
-  color: #222;
-  margin: 2em 0;
+.author {
+  font-size: 12px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.book {
+  font-style: italic;
+}
+
+footer {
+  color: #fff;
+  padding: 40px;
 }
