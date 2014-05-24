@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Charter';
+  src: font-url('/webfonts/charter_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Charter';
+  src: font-url('/webfonts/charter_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
 html, body, div, h1, p, blockquote, a, cite, img, ul, li, footer, header, section {
   margin: 0;
   padding: 0;
@@ -31,7 +45,7 @@ body {
   -webkit-animation: animatedBackground 45s linear infinite;
   -moz-animation: animatedBackground 45s linear infinite;
   color: #fff;
-  font: 16px/1.5 Baskerville, Palatino, serif;
+  font: 16px/1.5 Charter, Palatino, serif;
   text-align: center;
 }
 
