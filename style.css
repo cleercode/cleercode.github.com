@@ -127,7 +127,7 @@ h2 {
 }
 
 blockquote {
-  width: 400px;
+  max-width: 425px;
 }
 
 cite {
