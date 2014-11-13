@@ -16,7 +16,7 @@
    })();
   </script>
 </head>
-<body>
+<body id="particles">
   <section class="self">
     <h1>Chris Lee</h1>
     <img src="triangle.png" class="triangle">
@@ -41,7 +41,30 @@
       </blockquote>
     </div>
   </section>
-  <footer>
-  </footer>
+  <script src="particles.min.js"></script>
+  <script type="text/javascript">
+    var nb = window.innerWidth * window.innerHeight / 1000;
+    particlesJS('particles', {
+        particles: {
+            color: '#40c4ff',
+            shape: 'circle',
+            opacity: 0.2,
+            size: 1,
+            size_random: true,
+            nb: nb,
+            line_linked: {
+                enable_auto: false
+            },
+            anim: {
+                enable: true,
+                speed: 0.2
+            }
+        },
+        interactivity: {
+            enable: false
+        },
+        retina_detect: true
+    });
+  </script>
 </body>
 </html>

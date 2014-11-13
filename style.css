@@ -12,7 +12,7 @@
   font-style: italic;
 }
 
-html, body, div, h1, p, blockquote, a, cite, img, ul, li, footer, header, section {
+html, body, div, h1, p, blockquote, a, cite, img, ul, li, section {
   margin: 0;
   padding: 0;
   border: 0;
@@ -21,15 +21,11 @@ html, body, div, h1, p, blockquote, a, cite, img, ul, li, footer, header, sectio
   vertical-align: baseline;
 }
 
-footer, header, section {
-  display: block;
-}
-
 ul {
   list-style: none;
 }
 
-blockquote{
+blockquote {
   quotes: none;
 }
 
@@ -40,23 +36,16 @@ blockquote:before, blockquote:after {
 
 body {
   -webkit-font-smoothing: antialiased;
-  background: #222 url(bg.png);
-  background-attachment: fixed;
-  -webkit-animation: animatedBackground 45s linear infinite;
-  -moz-animation: animatedBackground 45s linear infinite;
+  background: #05090d;
   color: #fff;
   font: 16px/1.5 Charter, Palatino, serif;
   text-align: center;
 }
 
-@-webkit-keyframes animatedBackground {
-  from { background-position: 0 0; }
-  to { background-position: 0 -798px; }
-}
-
-@-moz-keyframes animatedBackground {
-  from { background-position: 0 0; }
-  to { background-position: 0 -798px; }
+canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 a {
@@ -153,9 +142,4 @@ cite {
 
 .book {
   font-style: italic;
-}
-
-footer {
-  color: #fff;
-  padding: 40px;
 }
