@@ -19,37 +19,34 @@
 </head>
 <body id="particles">
   <section class="self">
-    <h1>Chris Lee</h1>
-    <img src="triangle.png" class="triangle">
-    <p>Designer, Google Chrome</p>
-    <ul class="links">
+    <h1 class="self-name">Chris Lee</h1>
+    <p class="self-description">Designer, Google Chrome</p>
+    <ul class="self-links">
       <li><a href="mailto:chris@chrsl.net"><span class="spaced">Emai</span>l</a></li>
       <li><a href="https://twitter.com/cleerview"><span class="spaced">Twitte</span>r</a></li>
       <li><a href="http://dribbble.com/Cleer"><span class="spaced">Dribbbl</span>e</a></li>
     </ul>
   </section>
   <section class="quotes">
-    <div class="half one">
-        <blockquote>
-        <p>The work has enough love when enthusiasm transfers from the maker to the audience and bonds them. Both are enthusiastic about the design. I can imagine the excitement in the room when Stradivari would hand his newest violin to a skilled musician, because the violinist would unlock the instrument’s full potential by playing it. The products of design, like Stradivari’s violins, possess an aspect that can only be revealed through their use.</p>
-        <cite><p class="author">Frank Chimero</p><p class="book">The Shape of Design</p></cite>
-      </blockquote>
-    </div>
-    <div class="half two">
-      <blockquote>
-        <p>The violin-maker has made beautiful instruments, and has called musicians to make wonderful music with them; but the musicians have refused, and have tried to play tunes on bits of scrappy wood and grass they have found lying about the place… He has to set about rescuing the musicians from their folly, not just for their own sake (because it’s frustrating and dishonouring for them to try to get music out of lifeless objects) but because they are needed precisely to make the wonderful music he had in mind all along.</p>
-        <cite><p class="author">NT Wright</p><p class="book">Paul and the Faithfulness of God</p></cite>
-      </blockquote>
-    </div>
+    <blockquote class="quotes-quote">
+      <p><strong>The work has enough love when enthusiasm transfers from the maker to the audience and bonds them.</strong> Both are enthusiastic about the design.</p>
+      <p>I can imagine the excitement in the room when Stradivari would hand his newest violin to a skilled musician, because the violinist would <strong>unlock the instrument’s full potential by playing it</strong>. The products of design, like Stradivari’s violins, possess an aspect that can only be revealed through their use.</p>
+      <cite class="quotes-citation"><p class="quotes-author">Frank Chimero</p><p class="quotes-book">The Shape of Design</p></cite>
+    </blockquote>
+    <blockquote class="quotes-quote">
+      <p>The violin-maker has made beautiful instruments, and has called musicians to make wonderful music with them; but the musicians have refused, and have tried to play tunes on bits of scrappy wood and grass they have found lying about the place.</p>
+      <p>It is no good the violin-maker wringing his hands and deciding to do without the musicians; they are needed if the violins are to make the music they are supposed to make. He has to set about <strong>rescuing the musicians from their folly</strong>, not just for their own sake (because it’s frustrating and dishonouring for them to try to get music out of lifeless objects) but because <strong>they are needed precisely to make the wonderful music he had in mind all along</strong>.</p>
+      <cite class="quotes-citation"><p class="quotes-author">NT Wright</p><p class="quotes-book">Paul and the Faithfulness of God</p></cite>
+    </blockquote>
   </section>
   <script src="particles.min.js"></script>
   <script type="text/javascript">
-    var nb = window.innerWidth * window.innerHeight / 1000;
+    var nb = window.innerWidth * window.innerHeight / 3000;
     particlesJS('particles', {
         particles: {
             color: '#40c4ff',
             shape: 'circle',
-            opacity: 0.2,
+            opacity: 0.3,
             size: 1,
             size_random: true,
             nb: nb,

@@ -38,15 +38,15 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #05090d;
   color: #fff;
-  font: 16px/1.5 Charter, Palatino, serif;
-  text-align: center;
+  font: 18px/1.75 Charter, Palatino, serif;
 }
 
 canvas {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   pointer-events: none;
+  z-index: -1;
 }
 
 a {
@@ -58,90 +58,100 @@ a:hover {
   border-bottom: 1px solid #fff;
 }
 
-header {
-  color: #fff;
-  padding: 40px;
-}
-
-h1 {
-  font-size: 24px;
-  letter-spacing: 8px;
-  text-transform: uppercase;
-}
-
 section {
-  padding: 150px 0;
+  padding: 0 80px;
 }
 
-.triangle {
-  margin-bottom: 40px;
-  max-width: 100%;
+.self {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.self p {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.links li {
-  font-size: 12px;
-  display: inline-block;
-  margin: 10px;
+.self-name {
+  color: #00E5FF;
+  font-size: 24px;
+  letter-spacing: 6px;
   text-transform: uppercase;
 }
 
-.links .spaced {
-  letter-spacing: 5px;
+.self-links {
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 40px;
+}
+
+.self-links li {
+  font-family: 'Gill Sans', Arial, sans-serif;
+  font-size: 13px;
+  margin: 8px 0;
+  text-transform: uppercase;
+}
+
+.self-links .spaced {
+  letter-spacing: 4px;
 }
 
 .quotes {
-  background: url(violin.png) center no-repeat;
-  background-size: 400px;
-  line-height: 2;
-  overflow: hidden;
-  width: 100%;
+  background: #a52714;
+  background: linear-gradient(to bottom, #48062b, #7d2d21);
+  color: #eda29b;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
-h2 {
-  font-size: 48px;
+.quotes-quote {
+  max-width: 800px;
+  padding: 40px 0;
+}
+
+.quotes-quote p {
+  margin-bottom: 1em;
+}
+
+.quotes-quote strong {
+  color: #fff;
   font-weight: normal;
-  letter-spacing: 10px;
-  margin-top: 40px;
-  opacity: 0.5;
-  text-transform: uppercase;
-  position: absolute;
-  width: 100%;
 }
 
-.half {
-  display: inline-block;
-  padding: 40px;
-  vertical-align: top;
-}
-
-.one blockquote {
-  float: right;
-}
-
-.two blockquote {
-  float: left;
-}
-
-blockquote {
-  max-width: 425px;
-}
-
-cite {
+.quotes-citation {
+  color: #e06055;
   display: block;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
-.author {
-  font-size: 12px;
-  letter-spacing: 5px;
+.quotes-citation p {
+  margin: 0;
+}
+
+.quotes-author {
+  font-family: 'Gill Sans', Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 4px;
   text-transform: uppercase;
 }
 
-.book {
+.quotes-book {
   font-style: italic;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 0 40px;
+  }
+
+  .quotes {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+
+  .quotes-quote {
+    padding: 24px 0;
+  }
 }
