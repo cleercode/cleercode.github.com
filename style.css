@@ -11,6 +11,14 @@
   font-weight: normal;
   font-style: italic;
 }
+}
+
+@font-face {
+  font-family: 'Charter';
+  src: font-url('/webfonts/charter_bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
 
 html, body, div, span,
 h1, h2, h3, h4, h5, h6, p,
