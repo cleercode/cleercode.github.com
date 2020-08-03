@@ -106,10 +106,6 @@ figure {
   background: linear-gradient(to bottom, #48062b, #7d2d21);
 }
 
-.bg-cl-light-gray {
-  background-color: #f5f5f5;
-}
-
 .cl-cyan {
   color: #00e5ff;
 }
@@ -125,6 +121,10 @@ figure {
 .cl-blue,
 .hover-cl-blue:hover {
   color: #0e36ff;
+}
+
+.cl-mw {
+  max-width: 56rem;
 }
 
 /* Typography */
@@ -173,33 +173,29 @@ canvas {
   pointer-events: none;
 }
 
-.note {
-  line-height: 1.75em;
-}
-
-.note ol {
+.post ol {
   padding: 0;
 }
 
-.note li {
+.post li {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   margin-left: 2rem;
 }
 
-.note a {
+.post a {
   color: inherit;
 }
 
-.note strong {
+.post strong {
   font-weight: bold;
 }
 
-.note p {
+.post p {
   margin: 1rem 0;
 }
 
-.note h2 {
+.post h2 {
   font-size: 1.5rem;
   font-weight: bold;
   margin-top: 2rem;

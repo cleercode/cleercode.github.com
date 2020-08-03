@@ -7,7 +7,7 @@ Over my seven years at as a designer at Google, I participated in dozens of prod
 When I decided earlier this year to look for my next role, I found myself on the other side of the table - and all that experience didn't make it any less intimidating. Presenting yourself to others can be hard. So I'll share everything I know - in hope that it makes the process a little more approachable for you.
 
 ## Consider your audience
-As you would for any design problem, you need to consider your user's needs and interests.
+As you would for any design problem, start with your users' needs and interests.
 
 Your audience is human. Your presentation is probably one of several meetings they have in the day. They have limited attention and limited context on your work. To get your message across, you'll need to maintain their interest and explain your case clearly.
 

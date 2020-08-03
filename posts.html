@@ -11,7 +11,7 @@
       rel="stylesheet"
       href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(["_setAccount", "UA-19583432-1"]);
@@ -30,7 +30,7 @@
       })();
     </script>
   </head>
-  <body class="bg-cl-light-gray dark-gray">
+  <body class="bg-near-white dark-gray">
     <nav class="gill-sans f6 ttu w-100 bb b--black-10">
       <ul class="list ph4 ph5-ns">
         <li class="dib mr4">
@@ -48,14 +48,14 @@
         </li>
       </ul>
     </nav>
-    <main class="charter f6 lh-copy mw7 center pa4 pt4 pa5-ns">
-      <h1 class="f2 b mb4 lh-title cl-blue">Writing</h1>
+    <main class="charter f5 lh-copy cl-mw center pa4 pt4 pa5-ns">
       <ul class="list na3">
         {% for post in site.posts %}
         <li class="hover-bg-light-gray">
           <a href="{{post.url}}" class="db pa3 link dark-gray">
-            <div class="f3 lh-title">{{post.title}}</div>
-            <div class="mt1">{{post.date | date: "%B %-d, %Y"}}</div>
+            <div class="dib b cl-blue">{{post.title}}</div>
+            <div class="dib"></div>
+            <div class="dib black-50">{{post.date | date: "%B %-d, %Y"}}</div>
           </a>
         </li>
         {% endfor %}
