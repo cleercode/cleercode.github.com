@@ -1,0 +1,65 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chris Lee</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-19583432-1"]);
+      _gaq.push(["_trackPageview"]);
+
+      (function () {
+        var ga = document.createElement("script");
+        ga.type = "text/javascript";
+        ga.async = true;
+        ga.src =
+          ("https:" == document.location.protocol
+            ? "https://ssl"
+            : "http://www") + ".google-analytics.com/ga.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body class="bg-cl-light-gray dark-gray">
+    <nav class="gill-sans f6 ttu w-100 bb b--black-10">
+      <ul class="list ph4 ph5-ns">
+        <li class="dib mr4">
+          <a href="/" class="link mid-gray hover-cl-blue pv3"
+            ><span class="tracked-mega">Abou</span>t</a
+          >
+        </li>
+        <li class="dib mr4" style="margin-bottom: -1px;">
+          <a href="/work" class="link mid-gray hover-cl-blue pv3"
+            ><span class="tracked-mega">Wor</span>k</a
+          >
+        </li>
+        <li class="dib mr4 bb bw1 dark-gray pv3" style="margin-bottom: -1px;">
+          <span class="tracked-mega">Writin</span>g
+        </li>
+      </ul>
+    </nav>
+    <main class="charter f6 lh-copy mw7 center pa4 pt4 pa5-ns">
+      <h1 class="f2 b mb4 lh-title cl-blue">Writing</h1>
+      <ul class="list na3">
+        {% for post in site.posts %}
+        <li class="hover-bg-light-gray">
+          <a href="{{post.url}}" class="db pa3 link dark-gray">
+            <div class="f3 lh-title">{{post.title}}</div>
+            <div class="mt1">{{post.date | date: "%B %-d, %Y"}}</div>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </main>
+  </body>
+</html>

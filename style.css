@@ -1,35 +1,98 @@
-@font-face {
-  font-family: 'Charter';
-  src: font-url('/webfonts/charter_regular-webfont.woff') format('woff');
+/* @font-face {
+  font-family: "Charter";
+  src: font-url("/webfonts/charter_regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Charter';
-  src: font-url('/webfonts/charter_italic-webfont.woff') format('woff');
+  font-family: "Charter";
+  src: font-url("/webfonts/charter_italic-webfont.woff") format("woff");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Charter';
-  src: font-url('/webfonts/charter_bold-webfont.woff') format('woff');
+  font-family: "Charter";
+  src: font-url("/webfonts/charter_bold-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+} */
+
+@font-face {
+  font-family: "iA Writer Quattro";
+  font-weight: normal;
+  font-style: normal;
+  src: url("/webfonts/iAWriterQuattroS-Regular.eot") format("embedded-opentype"),
+    url("/webfonts/iAWriterQuattroS-Regular.woff2") format("woff2"),
+    url("/webfonts/iAWriterQuattroS-Regular.woff") format("woff");
 }
 
-html, body, div, span,
-h1, h2, h3, h4, h5, h6, p,
-ul, li,
-strong, a, blockquote, cite,
-section, figure {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+@font-face {
+  font-family: "iA Writer Quattro";
+  font-weight: normal;
+  font-style: italic;
+  src: url("/webfonts/iAWriterQuattroS-Italic.eot") format("embedded-opentype"),
+    url("/webfonts/iAWriterQuattroS-Italic.woff2") format("woff2"),
+    url("/webfonts/iAWriterQuattroS-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "iA Writer Quattro";
+  font-weight: bold;
+  font-style: normal;
+  src: url("/webfonts/iAWriterQuattroS-Bold.eot") format("embedded-opentype"),
+    url("/webfonts/iAWriterQuattroS-Bold.woff2") format("woff2"),
+    url("/webfonts/iAWriterQuattroS-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "iA Writer Quattro";
+  font-weight: bold;
+  font-style: italic;
+  src: url("/webfonts/iAWriterQuattroS-BoldItalic.eot")
+      format("embedded-opentype"),
+    url("/webfonts/iAWriterQuattroS-BoldItalic.woff2") format("woff2"),
+    url("/webfonts/iAWriterQuattroS-BoldItalic.woff") format("woff");
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    filter: invert(100%) hue-rotate(180deg);
+  }
+
+  img,
+  video,
+  iframe {
+    filter: invert(100%) hue-rotate(-180deg);
+  }
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+strong,
+a,
+blockquote,
+cite,
+section,
+figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /* Colors */
@@ -59,14 +122,19 @@ section, figure {
   color: #e06055;
 }
 
+.cl-blue,
+.hover-cl-blue:hover {
+  color: #0e36ff;
+}
+
 /* Typography */
 
 .charter {
-  font-family: Charter, Palatino, serif;
+  font-family: "iA Writer Quattro", Charter, Palatino, serif;
 }
 
 .gill-sans {
-  font-family: 'Gill Sans', Arial, sans-serif;
+  font-family: "iA Writer Quattro", "Gill Sans", Arial, sans-serif;
 }
 
 .lh-large {
@@ -80,22 +148,22 @@ section, figure {
 /* Spacing */
 
 .mnh1 {
-	margin-left: -.25rem;
-	margin-right: -.25rem;
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
 }
 
 /* Other styles */
 
 .shadow-icon {
-  box-shadow: 0 1px 2px 1px rgba(0,0,0,.1)
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 .w-icon {
-	width: 3rem;
+  width: 3rem;
 }
 
 .br-icon {
-	border-radius: .75rem;
+  border-radius: 0.75rem;
 }
 
 canvas {
@@ -103,4 +171,36 @@ canvas {
   left: 0;
   top: 0;
   pointer-events: none;
+}
+
+.note {
+  line-height: 1.75em;
+}
+
+.note ol {
+  padding: 0;
+}
+
+.note li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+}
+
+.note a {
+  color: inherit;
+}
+
+.note strong {
+  font-weight: bold;
+}
+
+.note p {
+  margin: 1rem 0;
+}
+
+.note h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
 }
