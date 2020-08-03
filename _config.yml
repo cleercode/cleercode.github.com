@@ -1,6 +1,4 @@
-collections:
-  notes:
-    output: true
+permalink: /posts/:title
 
 defaults:
   - scope:
