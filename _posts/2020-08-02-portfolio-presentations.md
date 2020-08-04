@@ -2,9 +2,9 @@
 title: How to present your portfolio
 ---
 
-Over my seven years at as a designer at Google, I participated in dozens of product designer interview panels. A group of five of us designers (and some related roles) would gather in a conference room. Our job for the next hour was to listen to a candidate tell us about their past work - and then decide if they're really fit for the job.
+Over my seven years at as a designer at Google, I participated in dozens of product designer interview panels. A group of five of us designers (and some related roles) would gather in a conference room with a potential teammate. Our task for the next hour was to listen to a candidate tell us about their past work - and then decide if they're really fit for the job.
 
-When I decided earlier this year to look for my next role, I found myself on the other side of the table - and all that experience didn't make it any less intimidating. Presenting yourself to others can be hard. So I'll share everything I know - in hope that it makes the process a little more approachable for you.
+When I decided earlier this year to look for my next role, I found myself on the other side of the table - and all my past experience didn't make it any less intimidating. Presenting yourself to others can be hard. So I'll share everything I know - in hope that it makes the process a little more approachable for you.
 
 ## Consider your audience
 As you would for any design problem, start with your users' needs and interests.
@@ -34,11 +34,11 @@ This is also a good moment to describe why you're interested in the company you'
 ## Introduce the project
 Talking about your project is different with an unfamiliar audience than with your teammates. Your audience doesn't know all the internal project names, team divisions, and company goals. You'll need to start from what they do know and fill in the rest.
 
-If your product is less mainstream, you may need to start from scratch. In my case, to introduce my work on Google Chrome, I was able to rely on the audience's familiar with the product. I then filled in the context for my specific subteam's mandate (complex information finding tasks).
+If your product is less mainstream, you may need to start from scratch. In my case, to introduce my work on Google Chrome, I was able to rely on the audience's familiarity with the product. I then filled in the context for my specific subteam's mandate (complex information finding tasks).
 
 Questions to address here include:
 - Why does this project matter to the company?
-- Who are your users, and what were their goals?
+- Who are your users and what are their goals?
 
 This introduction is an opportunity for you to demonstrate ownership of your project. In my case, I could say, "My team was given this scope" and then jump into the mockups I made. But the truth is that as a product designer, I helped shape this workstream - not just the ways we solved the problems, but the problems themselves. The intro is the time to put on your best PM hat and pitch why your project matters.
 
