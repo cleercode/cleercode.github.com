@@ -153,6 +153,7 @@ canvas {
 .list-hyphen li::before,
 .post li::before {
   content: "-";
+  text-indent: -5px;
 }
 
 .post ul,
