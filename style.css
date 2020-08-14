@@ -150,22 +150,28 @@ canvas {
   pointer-events: none;
 }
 
-.list-hyphen li::before,
-.post li::before {
-  content: "-";
-  text-indent: -5px;
-}
-
+.list-hyphen,
 .post ul,
-ol {
+.post ol {
+  margin-left: 1em;
   list-style: none;
   padding: 0;
 }
 
+.list-hyphen li,
 .post li {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  margin-left: 2rem;
+  text-indent: -1em;
+}
+
+.list-hyphen li::before,
+.post li::before {
+  content: "-";
+}
+
+.post li::before {
+  margin-right: 0.5em;
 }
 
 .post a {
